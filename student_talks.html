@@ -1,0 +1,101 @@
+<div class="talk-program">
+    <h2>Student Talks</h2>
+    <p>Click a talk title to view its abstract. Each row is a synchronized talk time across sessions.</p>
+    <script>
+        window.MathJax = window.MathJax || { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        .talk-program { font-family: Arial, sans-serif; }
+        .talk-program .program { border-collapse: collapse; table-layout: auto; width: 100%; }
+        .talk-program .program th, .talk-program .program td { border: 1px solid #bbb; padding: 10px; vertical-align: top; }
+        .talk-program .program th { background: #eee; text-align: left; }
+        .talk-program .program-talk { min-width: 220px; }
+        .talk-program .program .time { width: 1%; white-space: nowrap; font-size: 0.78em; padding: 4px 6px; }
+        .talk-program .no-talk { color: #666; font-style: italic; text-align: center; vertical-align: middle !important; }
+        .talk-program .talk-title { display: block; font-weight: 700; margin-bottom: 4px; }
+        .talk-program .presenter { font-weight: 400; margin: 6px 0; }
+        .talk-program .institution { color: #006400; font-style: italic; }
+        .talk-program .collapsible { background: #fff; color: #111; cursor: pointer; padding: 4px 0; border: 0; text-align: left; font-size: 15px; }
+        .talk-program .active, .talk-program .collapsible:hover { background: #ddd; }
+        .talk-program .collapsible::after { content: '+'; float: right; margin-left: 5px; }
+        .talk-program .collapsible.active::after { content: '-'; }
+        .talk-program .content { display: none; padding: 0 10px; background: #f5f5f5; }
+        .talk-program .content.open { display: block; }
+        @media (max-width: 700px) { .talk-program .program { min-width: 700px; } .talk-program .program-wrap { overflow-x: auto; } }
+    </style>
+    <div class="program-wrap">
+        <table class="program">
+            <thead><tr>
+                <th scope="col" class="time">Time</th>
+        <th scope="col">Session 1<br>Room RM 202</th>
+        <th scope="col">Session 2<br>Room RM 204</th>
+            </tr></thead>
+            <tbody>
+      <tr>
+        <th scope="row" class="time">4:00-4:15</th>
+        <td class="no-talk">No Talk</td>
+        <td class="program-talk"><button class="collapsible talk-title">A Tableau Times Its Transpose in the Plactic Monoid</button>
+<div class="content">
+  <p>Take a standard Young tableau and its transpose. Glue the transpose to the lower left corner of the tableau so that the two pieces share no row and no column. Then slide the result into a straight shape using jeu de taquin. Usually the final shape depends on which tableau you started with. We show that rectangles behave differently. If the starting tableau is a rectangle with a rows and b columns, every choice of tableau produces the same final shape, and we describe that shape explicitly in terms of a and b. Our main result is that rectangles are the only shapes with this property: for every shape that is not a rectangle, there are two tableaux of that shape whose glued versions rectify to different shapes. Along the way, we show that the final shape is always the double of a shifted shape. This connects the problem to shifted tableaux, Greene’s theorem on increasing and decreasing subsequences, and Littlewood-Richardson coefficients.</p>
+</div>
+<div class="presenter">John La Volpe; Hunter Markgraf, Colin Schwarz, Tyler Tavera, Ryan Kapoor<br><span class="institution">Chaminade High School</span></div></td>
+      </tr>
+      <tr>
+        <th scope="row" class="time">4:20-4:35</th>
+        <td class="program-talk"><button class="collapsible talk-title">Transition matrices for character bases of symmetric functions</button>
+<div class="content">
+  <p>A symmetric function is a formal power series of bounded degree in infinitely many variables that is invariant under permutations of its variables. Symmetric functions have deep connections to the representation theories of $GL_n$ and $S_n$, and there are many lovely combinatorial relationships among the five classical, homogeneous bases for symmetric functions. Orellana and Zabrocki introduced inhomogeneous bases of symmetric functions that evaluate to characters of representations of $S_n$. These are called the irreducible character basis and the permutation character basis. These new bases are related to longstanding open problems in combinatorial representation theory including the restriction problem and the Kronecker problem.<br>
+<br>
+In our work, we describe combinatorial interpretations for the transition matrices from the permutation character basis to classical bases for symmetric functions. These interpretations involve Lyndon words and tableaux.</p>
+</div>
+<div class="presenter">Beth Anne Castellano; Rosa Orellana, Mike Zabrocki<br><span class="institution">Dartmouth College</span></div></td>
+        <td class="program-talk"><button class="collapsible talk-title">Powers of Tableaux in the Plactic Monoid</button>
+<div class="content">
+  <p>Take a standard Young tableau with n cells and place k copies of it corner to corner, each copy above and to the right of the one before. Rectifying with jeu de taquin computes the k-th power of the tableau in the plactic monoid. We give an explicit description of this power whenever k is at least n. Row i begins with a run of copies of the number i. The length of that run is k minus the number of non-descents of the tableau smaller than i. The run is followed by a short tail of larger numbers, one for each non-descent, and the tail is also read off from the non-descents. In particular, the answer depends only on the descent set of the tableau, not on its shape. The argument works for the reading word of any permutation, which is what makes an induction possible. It uses row insertion, Greene’s theorem on decreasing subsequences, and a lemma of Sagan and Zhao.</p>
+</div>
+<div class="presenter">Henry Chatterton; Christopher Kovios, Steven Dahill, Nicholas Pozo<br><span class="institution">Chaminade High School</span></div></td>
+      </tr>
+      <tr>
+        <th scope="row" class="time">4:40-4:55</th>
+        <td class="program-talk"><button class="collapsible talk-title">A combinatorial study on r-partition graphs and their properties</button>
+<div class="content">
+  <p>For positive integers r ≤ n, the r-partition graph G[[n], r] has as its vertices all partitions of {1, …, n} into exactly r nonempty parts, with two vertices adjacent when one partition can be obtained from the other by moving a single element from one part to another. The number of vertices is the Stirling number of the second kind S(n, r), and even small cases, such as the 15-vertex, 35-edge graph G[[5], 2], have rich structure. Earlier work established basic invariants such as vertex and edge counts, clique number, and diameter. In this talk we present new results on the chromatic number and planarity of these graphs. We show that the chromatic number of G[[n], 2] is 2 when n is even and 4 when n is odd and at least 5. For planarity, we prove that G[[n], 2] is planar exactly when n ≤ 3, that G[[n], 3] is planar exactly when n = 3 or 4, and that G[[n], n−1] is non-planar for all n ≥ 5. Our non-planarity proofs locate a copy of K₃,₃ in the smallest non-planar case and then extend it to all larger n by adding elements to a fixed part. We conclude with computational evidence for conjectured formulas for vertex connectivity, κ(G[[n], 2]) = n − 1 and κ(G[[n], 3]) = 2n − 4, and discuss open problems. This work was carried out during a summer research program, and the talk requires no background beyond basic graph theory.</p>
+</div>
+<div class="presenter">Melissa Zhao; Denae Ventura</div></td>
+        <td class="program-talk"><button class="collapsible talk-title">Descents and Plateaus in Pattern-Avoiding Parking Functions</button>
+<div class="content">
+  <p>A plateau in a word is a pair of equal adjacent letters. Two patterns are strongly equivalent if, for every choice of how many times each letter appears, the same number of words avoid each pattern. We prove a conjecture that strongly equivalent permutation patterns are avoided by the same number of words with any given number of plateaus. In fact, we prove this for every pair of strongly equivalent patterns that have no plateaus of their own. The key observation is that collapsing each run of equal letters to a single letter does not change whether a word avoids such a pattern. Building on this, we show that the joint distribution of descents and plateaus is determined by the distribution of descents alone. Using Pollak’s cyclic lemma, we obtain a formula for the distribution of descents and plateaus over pattern-avoiding parking functions. For the twelve patterns strongly equivalent to 1234, this gives the plateau distribution in closed form.</p>
+</div>
+<div class="presenter">Steven Dahill<br><span class="institution">Chaminade High School</span></div></td>
+      </tr>
+      <tr>
+        <th scope="row" class="time">5:10-5:25</th>
+        <td class="no-talk">No Talk</td>
+        <td class="no-talk">No Talk</td>
+      </tr>
+      <tr>
+        <th scope="row" class="time">5:30-5:45</th>
+        <td class="no-talk">No Talk</td>
+        <td class="no-talk">No Talk</td>
+      </tr>
+      <tr>
+        <th scope="row" class="time">5:50-6:05</th>
+        <td class="no-talk">No Talk</td>
+        <td class="no-talk">No Talk</td>
+      </tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+        (function () {
+            const container = document.currentScript.previousElementSibling;
+            container.querySelectorAll('.collapsible').forEach((button) => {
+                button.addEventListener('click', () => {
+                    button.classList.toggle('active');
+                    button.nextElementSibling.classList.toggle('open');
+                });
+            });
+        })();
+    </script>
+</div>
