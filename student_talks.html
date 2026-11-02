@@ -1,6 +1,9 @@
-<div class="talk-program">
-    <h2>Student Talks</h2>
-    <p>Click a talk title to view its abstract. Each row is a synchronized talk time across sessions.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student Talks</title>
     <script>
         window.MathJax = window.MathJax || { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
     </script>
@@ -24,6 +27,11 @@
         .talk-program .content.open { display: block; }
         @media (max-width: 700px) { .talk-program .program { min-width: 700px; } .talk-program .program-wrap { overflow-x: auto; } }
     </style>
+</head>
+<body>
+<main class="talk-program">
+    <h2>Student Talks</h2>
+    <p>Click a talk title to view its abstract. Each row is a synchronized talk time across sessions.</p>
     <div class="program-wrap">
         <table class="program">
             <thead><tr>
@@ -98,4 +106,6 @@ In our work, we describe combinatorial interpretations for the transition matric
             });
         })();
     </script>
-</div>
+</main>
+</body>
+</html>
