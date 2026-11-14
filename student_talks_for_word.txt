@@ -47,6 +47,28 @@ For positive integers r ≤ n, the r-partition graph G[[n], r] has as its vertic
 
 ---
 
+Time: 5:10-5:25
+Presenter: Irsa Golemi
+Affiliation: Not specified
+Title: A Topological Analysis of Hospital Access in Massachusetts and Arkansas
+Abstract:
+The standard federal designation of medically underserved areas relies on quantities such as poverty rate, infant mortality, and provider-to-population ratios to draw a conclusion. These measurements take these metrics and condense them into one scalar number that (dis)qualifies an area as underserved. However, the final information encoded retains nothing of how these underserved areas are arranged relative to one another. We use Topological Data Analysis and Persistent Homology to study hospital access based on the hospital locations. To do this, we construct a filtration over drive-time, where a filtration is defined as a growing sequence of shapes that encode the information at a given scale. 
+
+Using publicly available data and code, we identified the hospital locations, demographic information, and computed the drive-time between hospitals.  From this data, we formed two filtrations: a Vietoris-Rips filtration on the hospital metric space, and a sublevel-set filtration of the access function over a k-nearest-neighbor complex on populated centroids. 
+
+We compared hospital access in two states: Arkansas and Massachusetts. Using the topological features of these filtrations, we identified “holes” in access in both states. The holes present in Arkansas persist for over an hour of drivetime, while Massachusetts contains only short lived features.  By incorporating population data, we see that the holes in Arkansas’s map contain real populations rather than empty land, whereas Massachusetts's gaps track geographic barriers such as rivers and coastlines. Through comparing facility locations and population data, our approach is able to identify holes in access that affect large populations, thus identifying ideal locations for new healthcare facilities.
+
+---
+
+Time: 5:30-5:45
+Presenter: Carly Zhang
+Affiliation: Mount Holyoke College
+Title: A Mathematical Understanding of Attitude Through Statistics- Case Study of Chinese Undergraduates in the US and Western Classical Music (Instrumental)
+Abstract:
+One’s attitude toward music is a social-psychological phenomenon shaped by individual experiences and sociocultural contexts. How can it be quantified and categorized? How to describe these data's relationship mathematically? Drawing on the ABC Model of Attitude, my study investigates the affective, behavioral, and cognitive dimensions of attitudes toward Western classical music (instrumental) among Chinese undergraduates studying at U.S. colleges through a mixed-methods framework. The quantitative component uses survey data to examine how dimensions of musical experience are associated with variation in students’ attitudes. Two-sample tests of differences in means, simple linear regression, and forward model selection will be used, with particular emphasis on the relationship between the affective and behavioral components. The qualitative component draws on semi-structured interviews examining students’ musical experiences in greater depth. Thematically coded interview data will be analyzed through code-co-occurrence analyses and represented in heat maps to explore associations between affect and cognition, as well as behavior and cognition. While presenting the statistical methodology and results, I will elaborate on the mathematical mechanisms behind them to provide a theoretical basis of the multidimensional nature of musical attitudes.
+
+---
+
 Session 2 — Room RM 204
 -----------------------
 
@@ -74,5 +96,62 @@ Affiliation: Chaminade High School
 Title: Descents and Plateaus in Pattern-Avoiding Parking Functions
 Abstract:
 A plateau in a word is a pair of equal adjacent letters. Two patterns are strongly equivalent if, for every choice of how many times each letter appears, the same number of words avoid each pattern. We prove a conjecture that strongly equivalent permutation patterns are avoided by the same number of words with any given number of plateaus. In fact, we prove this for every pair of strongly equivalent patterns that have no plateaus of their own. The key observation is that collapsing each run of equal letters to a single letter does not change whether a word avoids such a pattern. Building on this, we show that the joint distribution of descents and plateaus is determined by the distribution of descents alone. Using Pollak’s cyclic lemma, we obtain a formula for the distribution of descents and plateaus over pattern-avoiding parking functions. For the twelve patterns strongly equivalent to 1234, this gives the plateau distribution in closed form.
+
+---
+
+Time: 5:10-5:25
+Presenter: Sophia Towle; Orly Buchbinder
+Affiliation: University of New Hampshire
+Title: Experiences Shaping Motivations for Graduation Study in Mathematics: A Qualitative Study of Personal Statements
+Abstract:
+Concerns about the leaking pipeline from undergraduate to graduate study in mathematical sciences raise important questions about what shapes students’ decisions to pursue advanced degrees. Understanding the experiences and motivations of prospective graduate students is essential for supporting them and sustaining a robust mathematical science workforce. This qualitative study analyzes personal statements of 29 applicants to mathematics and statistics graduate programs, focusing on the experiences they describe and how they position themselves in relation to them. Using the lens of pivotal experiences and personal agency, we find that applicants rarely frame a single experience as pivotal; instead, they emphasize coursework, research, and teaching as motivational factors. The applicants also tend to portray themselves as active or collaborative participants, actively shaping their decisions to pursue graduate study.
+
+---
+
+Time: 5:30-5:45
+Presenter: Timothy Nelson
+Affiliation: Gordon College
+Title: Cartographic Groups of Children's Drawings
+Abstract:
+In this talk we will discuss a particular symmetry group that can be derived from a structure called a dessin d'enfant (French for “children's drawing”), which is essentially a connected bipartite graph embedded in an oriented surface. The symmetry group is known as the dessin's cartographic group, and is generated by rotations of the edges of the dessin about their incident vertices. We will explore patterns that emerge from taking the cartographic groups of different classes of bipartite graphs, including stars, cycles, paths, caterpillars, and more. Particular attention will be given to prisms, which exhibit a surprising pattern in their cartographic groups.
+
+---
+
+Session 3 — Room RM 210
+-----------------------
+
+Time: 4:00-4:15
+Presenter: Sei Wilkinson
+Affiliation: University of Massachusetts Boston
+Title: Dynamics of Social Behavior on Networks
+Abstract:
+This research seeks to understand how social behavior spreads on social networks. This is important in many areas; understanding how smoking behavior spreads on social networks could have important implications for designing interventions to help reduce the prevalence of smoking. We consider two types of social behavior (e.g., smoking and non-smoking) and model how such behavior can spread in a population represented by a social network. Each vertex in the network represents an individual in the population, and edges between vertices represent social connections between the corresponding individuals. Each individual in the population (i.e., each vertex in the network) has one of the two states associated with it. We assume that behavior spreads through the network by individuals imitating the behavior of their social contacts (i.e., by individuals imitating the states of their neighbors in the network). This imitation process is implemented computationally as an agent-based model on the network.
+
+---
+
+Time: 4:20-4:35
+Presenter: William Caron; Professor Caitlyn Parmelee
+Affiliation: Keene State College
+Title: American Public Opinions on Jews, Immigration, and Nazi Germany in 1938 - A View of the Data
+Abstract:
+There is so much data out there, but nearly all of it is functionally inaccessible to the average person. It takes time and resources to find the data, clean it, and organize it into a form that can be analyzed easily. Mid-century polling is no expectation. With the support of Professor Caitlyn Parmelee from the KSC Mathematics Department, we have created an interactive R Shiny application that provides graphs and summaries of the poll results from 1938 across religious and political affiliations, states/regions, socioeconomic status, etc. By eventually making the app available to the public, we would be providing a straightforward way to access and explore the data.
+
+---
+
+Time: 4:40-4:55
+Presenter: Noah Izzo; Professor Owen Beissel, Professor Braxton Carrigan
+Affiliation: Southern Connecticut State University
+Title: The Federican Solids
+Abstract:
+The Federican Solids is a proposed classification of polyhedra organized around cut and rotate instructions.  A polyhedron is divided into two congruent pieces, one piece is rotated, and the pieces are rejoined with their cut faces fully coinciding and without interior overlap.  The transformation allows for shapes to undergo a geometric transformation while preserving volume and surface area, with the change in the number of faces.  Working models and 3d printed examples make the transformations visible, supporting discussion of symmetry, face counts, and the conditions for membership.  Near miss examples help clarify the proposed definition, developed through independent exploration and collaboration with SCSU New Haven math professors.  The project also suggests opportunities for hands-on geometry activities and teacher education. Named in Memory of Brown University student, Federico Barrera, It invites us to ask a broader question, How far can familiar mathematics take us when we ask unfamiliar questions?
+
+---
+
+Time: 5:10-5:25
+Presenter: Iz Tecúm
+Affiliation: Columbia University
+Title: Sharp Perturbation Bounds for Four-Oval Quartics
+Abstract:
+For (x²−1)²+(y²−1)²+ax+by=t with t in (0,1), I compute the largest disk in the (a,b)-plane preserving a nonsingular projective curve with four unnested real ovals. I reduce the singularity equations to one-variable minimization, identify the sharp degenerations, and optimize the radius over t.
 
 ---

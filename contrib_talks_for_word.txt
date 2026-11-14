@@ -66,3 +66,24 @@ Abstract:
 In this talk, we will give a brief history of Ramsey numbers, including recent breakthroughs. Then we will introduce the r-Kneser Ramsey number, which is the minimum n such that every red/blue edge-coloring of the Kneser graph KG(n,r) contains a red clique on s vertices or a blue clique on t vertices. We will give bounds on the r-Kneser Ramsey number as well as some small exact values. This is joint work with Emily Heath, Alex Parker, Coy Schwieder, and Shira Zerbib.
 
 ---
+
+Session 3 — Room RM 210
+-----------------------
+
+Time: 1:00-1:15
+Presenter: Peter Staab; Rick Cleary, Babson College
+Affiliation: Fitchburg State University
+Title: It's raining 3s: Shooting streaks in the NBA
+Abstract:
+In recent decades, considerable statistical interest has focused on shooting streaks in basketball and the validity of the "hot hand" phenomenon—the belief that a player's probability of making a shot increases following a sequence of successful attempts. While most prior research evaluates individual performance, this talk investigates shooting streaks at the team level, focusing on three-point shooting data from the NBA, with a particular case study on the Boston Celtics. Using historical data analysis and probabilistic modeling, we evaluate whether entire teams exhibit "hot hand" behavior or if team-wide streaks align with random variation.
+
+---
+
+Time: 1:20-1:35
+Presenter: Michael Arciero
+Affiliation: University of Southern Maine
+Title: Monte Carlo simulations for Power analysis; an application to Zero-inflated data
+Abstract:
+"Power analyis" is conducted when one wants to study the relationships between sample size, effect size, and power of some statistical test. In cases where formulas relating these quantities do exist, they require that one be able to estimate the distribution of some test statistic. We can perform the same analyses with much greater flexibility, and no data or distributional assumptions, through simulation. In this talk we demonstrate this approach for "zero inflated" hospital admissions data. Central to the approach is the use of a Cholesky decomposition trick to correlate individual patient variables. This talk does not assume any specialized statistics background.
+
+---
