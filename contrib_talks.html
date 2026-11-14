@@ -1,6 +1,9 @@
-<div class="talk-program">
-    <h2>Contributed Talks</h2>
-    <p>Click a talk title to view its abstract. Each row is a synchronized talk time across sessions.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contributed Talks</title>
     <script>
         window.MathJax = window.MathJax || { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
     </script>
@@ -24,11 +27,17 @@
         .talk-program .content.open { display: block; }
         @media (max-width: 700px) { .talk-program .program { min-width: 700px; } .talk-program .program-wrap { overflow-x: auto; } }
     </style>
+</head>
+<body>
+<main class="talk-program">
+    <h2>Contributed Talks</h2>
+    <p>Click a talk title to view its abstract. Each row is a synchronized talk time across sessions.</p>
     <div class="program-wrap">
         <table class="program">
             <thead><tr>
                 <th scope="col" class="time">Time</th>
         <th scope="col">Session 1<br>Room RM 202</th>
+        <th scope="col">Session 2<br>Room RM 204</th>
             </tr></thead>
             <tbody>
       <tr>
@@ -38,6 +47,15 @@
   <p>I&#x27;ll discuss recent progress on Goldbach&#x27;s conjecture via the pigeonhole principle</p>
 </div>
 <div class="presenter">Joe Fields; Brian Darrow Jr, Alex Johansen<br><span class="institution">Southern Connecticut State University</span></div></td>
+        <td class="program-talk"><button class="collapsible talk-title">A Combinatorial Game on Paths and Caterpillars</button>
+<div class="content">
+  <p>The Game of Cycles is a two-player combinatorial game in which players take turns assigning directions to the edges of a graph, subject to restrictions that prevent the creation of sources and sinks. We introduce the mixed Game of Cycles, which allows some edges to be directed before play begins and permits disconnected graphs. This generalization provides a natural framework for studying game positions using Grundy values and decompositions into simpler games.<br>
+<br>
+We develop structural tools that allow us to determine the Grundy value of any mixed path. In particular, we establish a sharp upper bound and characterize the unique family of mixed paths attaining it. We also introduce a pendant decomposition that yields a simple formula for the Grundy value of any caterpillar graph, depending only on the parity of the number of edges in its spine.<br>
+<br>
+These results illustrate how graph structure can reveal surprisingly simple winning strategies in combinatorial games.</p>
+</div>
+<div class="presenter">Mark Mixer; Matthew Drum, Bryan Kaber, and Patrick Prudhomme<br><span class="institution">Wentworth Institute of Technology</span></div></td>
       </tr>
       <tr>
         <th scope="row" class="time">1:20-1:35</th>
@@ -46,10 +64,26 @@
   <p>What do spanning trees, graph flows, graph coloring, and network reliability have in common? They can all be studied by a single polynomial! The Tutte polynomial is a remarkably powerful graph invariant that encodes a wide variety of combinatorial information. This talk will explore its construction and some of its evaluations through examples to examine seemingly unrelated information about a graph.</p>
 </div>
 <div class="presenter">Josephine Reynes<br><span class="institution">Norwich University</span></div></td>
+        <td class="program-talk"><button class="collapsible talk-title">The ABCs of baseball&#x27;s ABS</button>
+<div class="content">
+  <p>Major League Baseball has just concluded its innaugural season using the Automated Ball-Strike (ABS) Challenge System.<br>
+Similar to manager&#x27;s replay challenges, teams are only allowed two unsuccessful challenges during a<br>
+game. Because ABS challenges are initiated by individual players, teams benefit from simple and clear criteria for when a challenges is advisable. We will use data from the 2026 season to consider the differential strategies of batters and catchers initiating challenges, building a simple theoretical model and making reasonable parameter estimates.</p>
+</div>
+<div class="presenter">Michael Nathanson<br><span class="institution">Bentley University</span></div></td>
       </tr>
       <tr>
         <th scope="row" class="time">1:40-1:55</th>
-        <td class="no-talk">No Talk</td>
+        <td class="program-talk"><button class="collapsible talk-title">Transforming Operations into Addition</button>
+<div class="content">
+  <p>In special relativity, velocities do not add: an object with velocity u relative to an object with velocity v has combined velocity (u + v) / (1 + uv/c^2). Instead, &quot;rapidity&quot; adds; the rapidity of velocity v is arctanh(v/c), a number that ranges from -infinity to infinity as v ranges from -c to c. How would someone go about devising such a transformation that carries a binary operation to ordinary addition? We&#x27;ll show a general principle, derived from representation theory but only needing basic calculus, that can transform any group operation on numbers into ordinary addition.</p>
+</div>
+<div class="presenter">Owen Biesel<br><span class="institution">Southern Connecticut State University</span></div></td>
+        <td class="program-talk"><button class="collapsible talk-title">Ramsey numbers in Kneser graphs</button>
+<div class="content">
+  <p>In this talk, we will give a brief history of Ramsey numbers, including recent breakthroughs. Then we will introduce the r-Kneser Ramsey number, which is the minimum n such that every red/blue edge-coloring of the Kneser graph KG(n,r) contains a red clique on s vertices or a blue clique on t vertices. We will give bounds on the r-Kneser Ramsey number as well as some small exact values. This is joint work with Emily Heath, Alex Parker, Coy Schwieder, and Shira Zerbib.</p>
+</div>
+<div class="presenter">Grace McCourt; Emily Heath, Alex Parker, Coy Schwieder, Shira Zerbib<br><span class="institution">University of Rhode Island</span></div></td>
       </tr>
             </tbody>
         </table>
@@ -65,4 +99,6 @@
             });
         })();
     </script>
-</div>
+</main>
+</body>
+</html>
