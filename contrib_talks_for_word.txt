@@ -5,15 +5,6 @@ Session 1 — Room RM 202
 -----------------------
 
 Time: 1:00-1:15
-Presenter: Joe Fields; Brian Darrow Jr, Alex Johansen
-Affiliation: Southern Connecticut State University
-Title: Goldbach's Pigeonhole
-Abstract:
-I'll discuss recent progress on Goldbach's conjecture via the pigeonhole principle
-
----
-
-Time: 1:20-1:35
 Presenter: Josephine Reynes
 Affiliation: Norwich University
 Title: Why the Tutte Polynomial is Amazing
@@ -22,19 +13,16 @@ What do spanning trees, graph flows, graph coloring, and network reliability hav
 
 ---
 
-Time: 1:40-1:55
-Presenter: Owen Biesel
-Affiliation: Southern Connecticut State University
-Title: Transforming Operations into Addition
+Time: 1:20-1:35
+Presenter: Grace McCourt; Emily Heath, Alex Parker, Coy Schwieder, Shira Zerbib
+Affiliation: University of Rhode Island
+Title: Ramsey numbers in Kneser graphs
 Abstract:
-In special relativity, velocities do not add: an object with velocity u relative to an object with velocity v has combined velocity (u + v) / (1 + uv/c^2). Instead, "rapidity" adds; the rapidity of velocity v is arctanh(v/c), a number that ranges from -infinity to infinity as v ranges from -c to c. How would someone go about devising such a transformation that carries a binary operation to ordinary addition? We'll show a general principle, derived from representation theory but only needing basic calculus, that can transform any group operation on numbers into ordinary addition.
+In this talk, we will give a brief history of Ramsey numbers, including recent breakthroughs. Then we will introduce the r-Kneser Ramsey number, which is the minimum n such that every red/blue edge-coloring of the Kneser graph KG(n,r) contains a red clique on s vertices or a blue clique on t vertices. We will give bounds on the r-Kneser Ramsey number as well as some small exact values. This is joint work with Emily Heath, Alex Parker, Coy Schwieder, and Shira Zerbib.
 
 ---
 
-Session 2 — Room RM 204
------------------------
-
-Time: 1:00-1:15
+Time: 1:40-1:55
 Presenter: Mark Mixer; Matthew Drum, Bryan Kaber, and Patrick Prudhomme
 Affiliation: Wentworth Institute of Technology
 Title: A Combinatorial Game on Paths and Caterpillars
@@ -47,7 +35,10 @@ These results illustrate how graph structure can reveal surprisingly simple winn
 
 ---
 
-Time: 1:20-1:35
+Session 2 — Room RM 204
+-----------------------
+
+Time: 1:00-1:15
 Presenter: Michael Nathanson
 Affiliation: Bentley University
 Title: The ABCs of baseball's ABS
@@ -58,19 +49,7 @@ game. Because ABS challenges are initiated by individual players, teams benefit 
 
 ---
 
-Time: 1:40-1:55
-Presenter: Grace McCourt; Emily Heath, Alex Parker, Coy Schwieder, Shira Zerbib
-Affiliation: University of Rhode Island
-Title: Ramsey numbers in Kneser graphs
-Abstract:
-In this talk, we will give a brief history of Ramsey numbers, including recent breakthroughs. Then we will introduce the r-Kneser Ramsey number, which is the minimum n such that every red/blue edge-coloring of the Kneser graph KG(n,r) contains a red clique on s vertices or a blue clique on t vertices. We will give bounds on the r-Kneser Ramsey number as well as some small exact values. This is joint work with Emily Heath, Alex Parker, Coy Schwieder, and Shira Zerbib.
-
----
-
-Session 3 — Room RM 210
------------------------
-
-Time: 1:00-1:15
+Time: 1:20-1:35
 Presenter: Peter Staab; Rick Cleary, Babson College
 Affiliation: Fitchburg State University
 Title: It's raining 3s: Shooting streaks in the NBA
@@ -79,11 +58,53 @@ In recent decades, considerable statistical interest has focused on shooting str
 
 ---
 
-Time: 1:20-1:35
+Time: 1:40-1:55
 Presenter: Michael Arciero
 Affiliation: University of Southern Maine
 Title: Monte Carlo simulations for Power analysis; an application to Zero-inflated data
 Abstract:
 "Power analyis" is conducted when one wants to study the relationships between sample size, effect size, and power of some statistical test. In cases where formulas relating these quantities do exist, they require that one be able to estimate the distribution of some test statistic. We can perform the same analyses with much greater flexibility, and no data or distributional assumptions, through simulation. In this talk we demonstrate this approach for "zero inflated" hospital admissions data. Central to the approach is the use of a Cholesky decomposition trick to correlate individual patient variables. This talk does not assume any specialized statistics background.
+
+---
+
+Session 3 — Room RM 210
+-----------------------
+
+Time: 1:00-1:15
+Presenter: Joe Fields; Brian Darrow Jr, Alex Johansen
+Affiliation: Southern Connecticut State University
+Title: Goldbach's Pigeonhole
+Abstract:
+I'll discuss recent progress on Goldbach's conjecture via the pigeonhole principle
+
+---
+
+Time: 1:20-1:35
+Presenter: Owen Biesel
+Affiliation: Southern Connecticut State University
+Title: Transforming Operations into Addition
+Abstract:
+In special relativity, velocities do not add: an object with velocity u relative to an object with velocity v has combined velocity (u + v) / (1 + uv/c^2). Instead, "rapidity" adds; the rapidity of velocity v is arctanh(v/c), a number that ranges from -infinity to infinity as v ranges from -c to c. How would someone go about devising such a transformation that carries a binary operation to ordinary addition? We'll show a general principle, derived from representation theory but only needing basic calculus, that can transform any group operation on numbers into ordinary addition.
+
+---
+
+Session 4 — Room RM 221
+-----------------------
+
+Time: 1:00-1:15
+Presenter: Matthew Moore
+Affiliation: Boston University
+Title: A Differential Equations Model of What Really Harms Your Teeth
+Abstract:
+Ask people what harms their teeth and you will hear sugar, maybe salt. The answer is subtler: how often you eat, what you eat, and how long it lingers all matter, and two different kinds of damage are at work. We build a differential equations model in which each food is a short burst of constants (how readily bacteria ferment it, how long it clings, how acidic it is, how much saliva it stirs up), so a whole day of eating, foods alone, in sequence or together, becomes a piecewise-defined system. A fast clock follows the pH at the tooth surface over minutes; slow clocks follow the enamel over months. Averaging over the day reveals two very different long-term behaviours. Decay has a tipping point: below a critical habit the tooth recovers, beyond it no healthy equilibrium exists, and fluoride moves that threshold. Erosion from acidic drinks has no equilibrium at all and only accumulates. The model explains why sipping is worse than gulping, why diet soda still wears enamel away, and why salt itself is harmless, and it makes an accessible modeling project for a first course in differential equations.
+
+---
+
+Time: 1:20-1:35
+Presenter: William Sanguinet
+Affiliation: Worcester Polytechnic Institute
+Title: Using web-based open calculators to create high-quality visualizations of mathematical objects in 2D and 3D
+Abstract:
+Over the past 20 years, several good free web-based calculators have been developed (Desmos3D, Geogebra3D, CalcPlot3D, etc.). Each calculator has various strengths and weaknesses and can be used to create stunning visuals of various mathematical concepts with varying levels of effort from the user. Recent additions of 3D capabilities, recursion, color functions, and matrix manipulation to Desmos have made it a particularly good choice for creating plots which demonstrate explicit algorithms for numerically approximating solutions to differential equations (Euler, RK45, etc.), optimization problems (Gradient descent, etc.), and other numerical methods. These graphs can be easily shared by embedding or copy-pasting a simple web address into an LMS. This presentation will focus on several recent additions to the Desmos calculator and demonstrate various recent classroom demos I have created using them. I will focus on sample examples that I have created for use in various classes such as multivariable vector calculus, differential equations, complex variables, and projective geometry.
 
 ---
