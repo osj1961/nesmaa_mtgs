@@ -47,16 +47,15 @@ For positive integers r ≤ n, the r-partition graph G[[n], r] has as its vertic
 
 ---
 
-Time: 5:10-5:25
-Presenter: Irsa Golemi
+Time: 5:30-5:45
+Presenter: Daniel Lucero
 Affiliation: Not specified
-Title: A Topological Analysis of Hospital Access in Massachusetts and Arkansas
+Title: Redistricting California with a Ripple Style of District Elimination
 Abstract:
-The standard federal designation of medically underserved areas relies on quantities such as poverty rate, infant mortality, and provider-to-population ratios to draw a conclusion. These measurements take these metrics and condense them into one scalar number that (dis)qualifies an area as underserved. However, the final information encoded retains nothing of how these underserved areas are arranged relative to one another. We use Topological Data Analysis and Persistent Homology to study hospital access based on the hospital locations. To do this, we construct a filtration over drive-time, where a filtration is defined as a growing sequence of shapes that encode the information at a given scale. 
-
-Using publicly available data and code, we identified the hospital locations, demographic information, and computed the drive-time between hospitals.  From this data, we formed two filtrations: a Vietoris-Rips filtration on the hospital metric space, and a sublevel-set filtration of the access function over a k-nearest-neighbor complex on populated centroids. 
-
-We compared hospital access in two states: Arkansas and Massachusetts. Using the topological features of these filtrations, we identified “holes” in access in both states. The holes present in Arkansas persist for over an hour of drivetime, while Massachusetts contains only short lived features.  By incorporating population data, we see that the holes in Arkansas’s map contain real populations rather than empty land, whereas Massachusetts's gaps track geographic barriers such as rivers and coastlines. Through comparing facility locations and population data, our approach is able to identify holes in access that affect large populations, thus identifying ideal locations for new healthcare facilities.
+Every ten years, population shifts determine how the 435 House seats are divided among states, while gerrymandering reshapes those boundaries to influence political power. In this study, we developed a population data-driven “ripple” redistricting method to generate and evaluate alternative California congressional plans following the state’s reduction from 53 to 52 seats.
+The ripple algorithm overlays 2020 precinct geography and Census demographic data onto California’s earlier Congressional map, represented by the 112th Congressional dataset. A district is selected for elimination from a pool of districts containing fewer precincts, its precincts are reassigned to adjacent districts, and the resulting population is propagated outward through a precinct-adjacency graph. Boundary precincts move between adjacent and non-adjacent districts, and the result is 52 districts, according to the 118th Congressional dataset, whose populations are balanced around an ideal population of 760,066 residents. 
+Repeated simulations produce an ensemble of alternative plans which are evaluated based on population deviation, contiguity, majority-minority representation, and geographic compactness. We measured compactness with the Polsby-Popper test, where values closer to one indicate more compact boundaries. We also made the algorithm minority aware to maintain and create new districts with majority-minority representation. The ensemble comparisons provide a way to assess whether the enacted map is typical or unusual relative to the enacted plan and to analyze tradeoffs among the comparable aspects.
+Considering its explorative and experimental nature, this approach isn’t a legally validated redistricting proposal and is non-applicable; however, future work may incorporate more precise information to improve the model.
 
 ---
 
@@ -90,12 +89,16 @@ Take a standard Young tableau with n cells and place k copies of it corner to co
 
 ---
 
-Time: 4:40-4:55
-Presenter: Steven Dahill
-Affiliation: Chaminade High School
-Title: Descents and Plateaus in Pattern-Avoiding Parking Functions
+Time: 5:10-5:25
+Presenter: Irsa Golemi
+Affiliation: Not specified
+Title: A Topological Analysis of Hospital Access in Massachusetts and Arkansas
 Abstract:
-A plateau in a word is a pair of equal adjacent letters. Two patterns are strongly equivalent if, for every choice of how many times each letter appears, the same number of words avoid each pattern. We prove a conjecture that strongly equivalent permutation patterns are avoided by the same number of words with any given number of plateaus. In fact, we prove this for every pair of strongly equivalent patterns that have no plateaus of their own. The key observation is that collapsing each run of equal letters to a single letter does not change whether a word avoids such a pattern. Building on this, we show that the joint distribution of descents and plateaus is determined by the distribution of descents alone. Using Pollak’s cyclic lemma, we obtain a formula for the distribution of descents and plateaus over pattern-avoiding parking functions. For the twelve patterns strongly equivalent to 1234, this gives the plateau distribution in closed form.
+The standard federal designation of medically underserved areas relies on quantities such as poverty rate, infant mortality, and provider-to-population ratios to draw a conclusion. These measurements take these metrics and condense them into one scalar number that (dis)qualifies an area as underserved. However, the final information encoded retains nothing of how these underserved areas are arranged relative to one another. We use Topological Data Analysis and Persistent Homology to study hospital access based on the hospital locations. To do this, we construct a filtration over drive-time, where a filtration is defined as a growing sequence of shapes that encode the information at a given scale. 
+
+Using publicly available data and code, we identified the hospital locations, demographic information, and computed the drive-time between hospitals.  From this data, we formed two filtrations: a Vietoris-Rips filtration on the hospital metric space, and a sublevel-set filtration of the access function over a k-nearest-neighbor complex on populated centroids. 
+
+We compared hospital access in two states: Arkansas and Massachusetts. Using the topological features of these filtrations, we identified “holes” in access in both states. The holes present in Arkansas persist for over an hour of drivetime, while Massachusetts contains only short lived features.  By incorporating population data, we see that the holes in Arkansas’s map contain real populations rather than empty land, whereas Massachusetts's gaps track geographic barriers such as rivers and coastlines. Through comparing facility locations and population data, our approach is able to identify holes in access that affect large populations, thus identifying ideal locations for new healthcare facilities.
 
 ---
 
@@ -105,6 +108,15 @@ Affiliation: University of New Hampshire
 Title: Experiences Shaping Motivations for Graduation Study in Mathematics: A Qualitative Study of Personal Statements
 Abstract:
 Concerns about the leaking pipeline from undergraduate to graduate study in mathematical sciences raise important questions about what shapes students’ decisions to pursue advanced degrees. Understanding the experiences and motivations of prospective graduate students is essential for supporting them and sustaining a robust mathematical science workforce. This qualitative study analyzes personal statements of 29 applicants to mathematics and statistics graduate programs, focusing on the experiences they describe and how they position themselves in relation to them. Using the lens of pivotal experiences and personal agency, we find that applicants rarely frame a single experience as pivotal; instead, they emphasize coursework, research, and teaching as motivational factors. The applicants also tend to portray themselves as active or collaborative participants, actively shaping their decisions to pursue graduate study.
+
+---
+
+Time: 5:50-6:05
+Presenter: Steven Dahill
+Affiliation: Chaminade High School
+Title: Descents and Plateaus in Pattern-Avoiding Parking Functions
+Abstract:
+A plateau in a word is a pair of equal adjacent letters. Two patterns are strongly equivalent if, for every choice of how many times each letter appears, the same number of words avoid each pattern. We prove a conjecture that strongly equivalent permutation patterns are avoided by the same number of words with any given number of plateaus. In fact, we prove this for every pair of strongly equivalent patterns that have no plateaus of their own. The key observation is that collapsing each run of equal letters to a single letter does not change whether a word avoids such a pattern. Building on this, we show that the joint distribution of descents and plateaus is determined by the distribution of descents alone. Using Pollak’s cyclic lemma, we obtain a formula for the distribution of descents and plateaus over pattern-avoiding parking functions. For the twelve patterns strongly equivalent to 1234, this gives the plateau distribution in closed form.
 
 ---
 
@@ -120,21 +132,30 @@ This research seeks to understand how social behavior spreads on social networks
 
 ---
 
-Time: 4:20-4:35
-Presenter: William Caron; Professor Caitlyn Parmelee
-Affiliation: Keene State College
-Title: American Public Opinions on Jews, Immigration, and Nazi Germany in 1938 - A View of the Data
-Abstract:
-There is so much data out there, but nearly all of it is functionally inaccessible to the average person. It takes time and resources to find the data, clean it, and organize it into a form that can be analyzed easily. Mid-century polling is no expectation. With the support of Professor Caitlyn Parmelee from the KSC Mathematics Department, we have created an interactive R Shiny application that provides graphs and summaries of the poll results from 1938 across religious and political affiliations, states/regions, socioeconomic status, etc. By eventually making the app available to the public, we would be providing a straightforward way to access and explore the data.
-
----
-
 Time: 4:40-4:55
 Presenter: Noah Izzo; Professor Owen Beissel, Professor Braxton Carrigan
 Affiliation: Southern Connecticut State University
 Title: The Federican Solids
 Abstract:
 The Federican Solids is a proposed classification of polyhedra organized around cut and rotate instructions.  A polyhedron is divided into two congruent pieces, one piece is rotated, and the pieces are rejoined with their cut faces fully coinciding and without interior overlap.  The transformation allows for shapes to undergo a geometric transformation while preserving volume and surface area, with the change in the number of faces.  Working models and 3d printed examples make the transformations visible, supporting discussion of symmetry, face counts, and the conditions for membership.  Near miss examples help clarify the proposed definition, developed through independent exploration and collaboration with SCSU New Haven math professors.  The project also suggests opportunities for hands-on geometry activities and teacher education. Named in Memory of Brown University student, Federico Barrera, It invites us to ask a broader question, How far can familiar mathematics take us when we ask unfamiliar questions?
+
+---
+
+Time: 5:10-5:25
+Presenter: Trong Nguyen; Esme Gonzalez, Lindy King, and Imaad Uzun
+Affiliation: Not specified
+Title: What Can Heat Diffusion Tell Us About Tight Frames on Graphs?
+Abstract:
+Place one unit of heat at the center of a star graph and let it spread. Repeat the experiment from a leaf. After the same amount of time, how much heat remains at each starting vertex? This question leads to a criterion for tightness in vertex-frequency analysis, a way to describe where a signal varies on a graph and how rapidly it varies. A frame is tight when its coefficients capture the energy of every signal up to the same constant factor. For heat-kernel frames, tightness occurs exactly when the return heat is equal at every vertex. We compare a star graph with a balanced complete bipartite graph to illustrate this criterion, then show how it extends from heat diffusion to other spectral filters. This is joint work from the Tufts University VERSE program.
+
+---
+
+Time: 5:30-5:45
+Presenter: William Caron; Professor Caitlyn Parmelee
+Affiliation: Keene State College
+Title: American Public Opinions on Jews, Immigration, and Nazi Germany in 1938 - A View of the Data
+Abstract:
+There is so much data out there, but nearly all of it is functionally inaccessible to the average person. It takes time and resources to find the data, clean it, and organize it into a form that can be analyzed easily. Mid-century polling is no expectation. With the support of Professor Caitlyn Parmelee from the KSC Mathematics Department, we have created an interactive R Shiny application that provides graphs and summaries of the poll results from 1938 across religious and political affiliations, states/regions, socioeconomic status, etc. By eventually making the app available to the public, we would be providing a straightforward way to access and explore the data.
 
 ---
 
@@ -149,15 +170,6 @@ In this talk we will discuss a particular symmetry group that can be derived fro
 
 Session 4 — Room RM 221
 -----------------------
-
-Time: 4:00-4:15
-Presenter: Trong Nguyen; Esme Gonzalez, Lindy King, and Imaad Uzun
-Affiliation: Not specified
-Title: What Can Heat Diffusion Tell Us About Tight Frames on Graphs?
-Abstract:
-Place one unit of heat at the center of a star graph and let it spread. Repeat the experiment from a leaf. After the same amount of time, how much heat remains at each starting vertex? This question leads to a criterion for tightness in vertex-frequency analysis, a way to describe where a signal varies on a graph and how rapidly it varies. A frame is tight when its coefficients capture the energy of every signal up to the same constant factor. For heat-kernel frames, tightness occurs exactly when the return heat is equal at every vertex. We compare a star graph with a balanced complete bipartite graph to illustrate this criterion, then show how it extends from heat diffusion to other spectral filters. This is joint work from the Tufts University VERSE program.
-
----
 
 Time: 4:20-4:35
 Presenter: Yiren Wang
@@ -203,23 +215,12 @@ Summer Research Program, and Diane D. Brink for their support.
 
 ---
 
-Time: 5:10-5:25
+Time: 5:30-5:45
 Presenter: Zimo Liu
 Affiliation: Boston University
 Title: Identifiability in a Predator-Prey Model with Competition
 Abstract:
 Fitting a model to data always returns numbers, but the data do not support every one of them equally. We study this question, called practical identifiability, in a predator–prey model of rabbits and foxes: the classical Lotka–Volterra equations with an added self-limitation term for each species, six parameters in all. We fit the model to a long, noisy record of both populations. To measure how sharply the data determine each parameter, we use profile likelihood: hold one parameter fixed and refit all the others. The cycles’ period and shape tightly pin down the four classical rates. The two competition terms behave very differently. Their only visible effect is to damp the cycles, the data show no damping, and so both are confined near zero. We explain which features of the data carry information about which parameters, and why correlated noise makes even the tight intervals more optimistic than they appear.
-
----
-
-Time: 5:30-5:45
-Presenter: Kayla Miller
-Affiliation: Williams College
-Title: Polymath Jr: The First Seven Years
-Abstract:
-During the pandemic response in 2020 many summer research programs were cancelled; several REU directors and their colleagues
-created the online Polymath Jr program, providing opportunities to hundreds of students that summer and all subsequent summers. Each year there are on the order of 10 - 15 research groups, each run by a professor or two, assisted by a postdoc / graduate student / advanced undergraduate, supervising between 4 and 25 students on a research project. In addition to
-producing original results, the program is a force multiplier for mentoring, as the research assistants learn how to design and run such programs. We report on the success and challenges, and discuss how people can participate in 2027 at all levels.
 
 ---
 
