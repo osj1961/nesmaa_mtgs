@@ -67,27 +67,6 @@ Abstract:
 
 ---
 
-Session 3 — Room RM 210
------------------------
-
-Time: 1:00-1:15
-Presenter: Joe Fields; Brian Darrow Jr, Alex Johansen
-Affiliation: Southern Connecticut State University
-Title: Goldbach's Pigeonhole
-Abstract:
-I'll discuss recent progress on Goldbach's conjecture via the pigeonhole principle
-
----
-
-Time: 1:20-1:35
-Presenter: Owen Biesel
-Affiliation: Southern Connecticut State University
-Title: Transforming Operations into Addition
-Abstract:
-In special relativity, velocities do not add: an object with velocity u relative to an object with velocity v has combined velocity (u + v) / (1 + uv/c^2). Instead, "rapidity" adds; the rapidity of velocity v is arctanh(v/c), a number that ranges from -infinity to infinity as v ranges from -c to c. How would someone go about devising such a transformation that carries a binary operation to ordinary addition? We'll show a general principle, derived from representation theory but only needing basic calculus, that can transform any group operation on numbers into ordinary addition.
-
----
-
 Session 4 — Room RM 221
 -----------------------
 
@@ -106,5 +85,14 @@ Affiliation: Worcester Polytechnic Institute
 Title: Using web-based open calculators to create high-quality visualizations of mathematical objects in 2D and 3D
 Abstract:
 Over the past 20 years, several good free web-based calculators have been developed (Desmos3D, Geogebra3D, CalcPlot3D, etc.). Each calculator has various strengths and weaknesses and can be used to create stunning visuals of various mathematical concepts with varying levels of effort from the user. Recent additions of 3D capabilities, recursion, color functions, and matrix manipulation to Desmos have made it a particularly good choice for creating plots which demonstrate explicit algorithms for numerically approximating solutions to differential equations (Euler, RK45, etc.), optimization problems (Gradient descent, etc.), and other numerical methods. These graphs can be easily shared by embedding or copy-pasting a simple web address into an LMS. This presentation will focus on several recent additions to the Desmos calculator and demonstrate various recent classroom demos I have created using them. I will focus on sample examples that I have created for use in various classes such as multivariable vector calculus, differential equations, complex variables, and projective geometry.
+
+---
+
+Time: 1:40-1:55
+Presenter: Joe Fields; Brian Darrow Jr, Alex Johansen
+Affiliation: Southern Connecticut State University
+Title: Goldbach's Pigeonhole
+Abstract:
+I'll discuss recent progress on Goldbach's conjecture via the pigeonhole principle
 
 ---
